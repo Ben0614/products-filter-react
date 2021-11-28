@@ -1,7 +1,7 @@
 const data = [
   {
     id: '1',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 5,
     name: 'iPhone 12 Pro',
     price: 25000,
@@ -9,7 +9,7 @@ const data = [
   },
   {
     id: '2',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 5,
     name: 'iPhone 12',
     price: 15000,
@@ -17,7 +17,7 @@ const data = [
   },
   {
     id: '3',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 10,
     name: 'iPhone SE',
     price: 12500,
@@ -25,7 +25,7 @@ const data = [
   },
   {
     id: '4',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 10,
     name: 'iPhone XS',
     price: 22000,
@@ -33,7 +33,7 @@ const data = [
   },
   {
     id: '5',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 6,
     name: 'Google Pixel 5',
     price: 17000,
@@ -41,7 +41,7 @@ const data = [
   },
   {
     id: '6',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 6,
     name: 'Google Pixel 4',
     price: 15500,
@@ -49,7 +49,7 @@ const data = [
   },
   {
     id: '7',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 6,
     name: 'Vivo Y50',
     price: 9900,
@@ -57,7 +57,7 @@ const data = [
   },
   {
     id: '8',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 6,
     name: '小米 2',
     price: 11000,
@@ -65,7 +65,7 @@ const data = [
   },
   {
     id: '9',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 6,
     name: 'HTC 3',
     price: 13900,
@@ -73,7 +73,7 @@ const data = [
   },
   {
     id: '10',
-    picture: 'http://placehold.it/32x32',
+    picture: 'https://picsum.photos/32?random=46',
     stock: 6,
     name: 'Sony Final 5',
     price: 23300,

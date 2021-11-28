@@ -28,7 +28,7 @@ function App() {
   // 價格篩選
   const [priceRange, setPriceRange] = useState([])
   // 價格篩選條件
-  const priceRangeTypes = ['所有', '1萬以下', '1~2萬']
+  const priceRangeTypes = ['所有', '1萬以下', '1~2萬', '2萬以上']
   // 標籤篩選
   const [tags, setTags] = useState([])
   // 標籤篩選條件
@@ -107,13 +107,18 @@ function App() {
 
     switch (priceRange) {
       case '1萬以下':
-        newProducts = [...newProducts].filter((v, i) => {
+        newProducts = [...newProducts].filter((v) => {
           return v.price <= 10000
         })
         break
       case '1~2萬':
-        newProducts = [...newProducts].filter((v, i) => {
+        newProducts = [...newProducts].filter((v) => {
           return v.price >= 10001 && v.price <= 20000
+        })
+        break
+      case '2萬以上':
+        newProducts = [...newProducts].filter((v) => {
+          return v.price > 20000
         })
         break
       default:
